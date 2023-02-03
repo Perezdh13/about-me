@@ -1,18 +1,20 @@
 import React from 'react';
-import background from '../img/Fondo pagina.png'
-import bigInitial from '../img/P mayuscula.png' 
+import background from '../img/Fondo pagina.png';
+import bigInitial from '../img/P mayuscula.png';
+import LinksMainPage from './LinksMainPage';
 
 function MainPage() {
   return (
     <div className='main-page'>
-        <img src= {background}/>
-      <div className='main-page-icon'>
+      <img className='main-page-background' src={background} />
+      <div className='main-page-bar'>
+        <div className='main-page-bar-icon'>
+          <img src={bigInitial} />
+          <p>Pablo<br />Web Developer</p>
+        </div>
         
       </div>
-      <div className='main-page-bar'>
-
-      </div>
-
+        <LinksMainPage />
     </div>
   )
 }

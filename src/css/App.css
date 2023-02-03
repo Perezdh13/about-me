@@ -1,7 +1,69 @@
 /*///////////////// MAIN PAGE //////////////*/
-.main-page img{
+.main-page img {
+  position: relative;
   width: 99vw;
 }
+
+.main-page-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #282c34;
+  width: 8vw;
+  height: 100vh;
+}
+
+.main-page-bar-icon{
+  background-color: black;
+  top: 0;
+  left: 0;
+  width: 8vw;
+  height: 18vh;
+}
+
+.main-page-bar-icon img {
+  position: absolute;
+  width: 4vw;
+  top: 0vh;
+  left: 2vw;
+}
+
+.main-page-bar-icon p{
+  position: absolute;
+  top:10vh;
+  left:1vw;
+  color: white;
+}
+.main-page-bar-links{
+  position: fixed;
+  top:20vh;
+  left:3vw;
+}
+.main-page-bar-links-P{
+  position:fixed;
+  color: white;
+  top:35vh;
+  left:2vw;
+  font-size: 20px;
+}
+
+.main-page-bar-links img{
+  width: 1.3vw;
+}
+
+.main-page-bar-github{
+  position: fixed;
+  left: 0vw;
+  top:60vh;
+}
+.main-page-bar-linkedin{
+  position: fixed;
+  left:-1vw;
+  top:60vh;
+}
+
+
+
 
 /*//////////////////////////////*/
 .App {
@@ -38,6 +100,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
