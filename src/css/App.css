@@ -1,3 +1,9 @@
+/*///////////////// MAIN PAGE //////////////*/
+.main-page img{
+  width: 99vw;
+}
+
+/*//////////////////////////////*/
 .App {
   text-align: center;
 }
