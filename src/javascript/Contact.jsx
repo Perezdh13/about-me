@@ -35,7 +35,7 @@ function Contact() {
                 <button className='contact-page-input-button' >Send message!</button>
             </div>
             <div  className='contact-page-map'>
-                {Loader}
+                
             </div>
         </div>
             
