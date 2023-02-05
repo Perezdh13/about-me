@@ -15,6 +15,7 @@ function MainPage() {
         
       </div>
         <LinksMainPage />
+        
     </div>
   )
 }
