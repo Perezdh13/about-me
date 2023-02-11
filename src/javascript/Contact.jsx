@@ -1,17 +1,17 @@
 import React, { useEffect } from 'react'
-import {Loader} from "@googlemaps/js-api-loader"
+import { Loader } from "@googlemaps/js-api-loader"
 import { useNavigate } from 'react-router-dom'
 
 function Contact() {
-    
+
     const loader = new Loader({
         apiKey: "AIzaSyDW1UP-7PtwaT98dXs4QfOE-h7J7ljqgu8",
         version: "weekly",
-        
-      });
 
-     
-      
+    });
+
+
+
     let navigate = useNavigate()
     useEffect(() => {
         window.onload = function () {
@@ -34,11 +34,12 @@ function Contact() {
                 <input className='contact-page-input-message' type='text' name='Message' placeholder='Message' />
                 <button className='contact-page-input-button' >Send message!</button>
             </div>
-            <div  className='contact-page-map'>
+            
+            <div className='contact-page-map'>
                 {Loader}
             </div>
         </div>
-            
+
     )
 }
 

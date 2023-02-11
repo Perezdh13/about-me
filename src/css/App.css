@@ -1,3 +1,10 @@
+/*//////////////SKILLS PAGE //////////////*/
+.skils-page{
+  position: absolute;
+  top:40vh;
+  left:30vw;  
+}
+
 /*////////////// MAIN GREETING ////////////*/
 .main-greeting{
   position: absolute;
@@ -14,8 +21,8 @@
 
 .main-greeting img{
   position: absolute;
-  top: 16vh;
-  left: 9vw;
+  top: 12.8vh;
+  left: 7.5vw;
 }
 
 /*////////////// CONTACT PAGE ///////////////*/

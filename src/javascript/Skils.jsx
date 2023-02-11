@@ -2,7 +2,9 @@ import React from 'react'
 
 function Skils() {
   return (
-    <div>Skils</div>
+    <div className='skils-page'>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Perezdh13&layout=compact" />
+    </div>
   )
 }
 
