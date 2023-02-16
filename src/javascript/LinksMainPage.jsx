@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import linkedin from '../img/linkedin.png';
 import github from '../img/github.png';
 import background from '../img/Fondo pagina.png';
-import bigInitial from '../img/P mayuscula.png';
+
 
 function LinksMainPage() {
     return (
@@ -13,9 +13,10 @@ function LinksMainPage() {
             <div className='main-page-bar'>
                 <div className='main-page-bar-icon'>
                     <Link to="/">
-                    <img src={bigInitial} alt='inicial' />
+                    <h1>P</h1>
                     </Link>
-                    <p>Pablo<br />Web Developer</p>
+                    <p className='main-page-bar-icon-pablo'>  Pablo</p>
+                    <p className='main-page-bar-icon-webDeveloper'>  Web Developer</p>
                 </div>
             </div>
             <div className='main-page-bar-links'>
