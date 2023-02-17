@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Loader } from "@googlemaps/js-api-loader"
-import { useNavigate } from 'react-router-dom'
+
 
 function Contact() {
 
@@ -11,13 +11,6 @@ function Contact() {
     });
 
 
-
-    let navigate = useNavigate()
-    useEffect(() => {
-        window.onload = function () {
-            navigate("/")
-        };
-    }, [navigate]);
 
 
     return (
@@ -36,7 +29,7 @@ function Contact() {
             </div>
             
             <div className='contact-page-map'>
-                {Loader}
+                
             </div>
         </div>
 

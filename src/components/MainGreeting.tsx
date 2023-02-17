@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom';
-import P from '../img/P mayuscula.png';
+
 
 function MainGreeting() {
 

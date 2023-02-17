@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import linkedin from '../img/linkedin.png';
-import github from '../img/github.png';
-import background from '../img/Fondo pagina.png';
+import linkedin from "./../img/linkedin.png" ;
+import github from'../img/github.png';
+import background from'../img/Fondo pagina.png';
 
 
 function LinksMainPage() {
@@ -15,7 +15,7 @@ function LinksMainPage() {
                     <Link to="/">
                     <h1>P</h1>
                     </Link>
-                    <p className='main-page-bar-icon-pablo'>  Pablo</p>
+                    <p className='main-page-bar-icon-pablo'>  ablo</p>
                     <p className='main-page-bar-icon-webDeveloper'>  Web Developer</p>
                 </div>
             </div>

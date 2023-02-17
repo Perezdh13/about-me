@@ -25,7 +25,7 @@
 .main-greeting-P{
   margin:0;
   position: absolute;
-  top: 0;
+  top: 0.5vh;
   left: 11vw;
   font-size: 15vw;
   color: white;
@@ -137,28 +137,37 @@ background-color: rgb(157, 152, 152);
   top: 0;
   left: 0;
   width: 8vw;
-  height: 15vh;
+  height: 18vh;
 }
 
 .main-page-bar-icon h1{
-  position: absolute;
+  position: fixed;
+  margin:0;
   color: white;
-  font-size: 5vw;
-  top: 0vh;
+  font-size: 5vw;  
   left: 2vw;
   text-shadow:
-    -0.4vw 0.3vw 0 #fa26d3,
-    -0.3vw 0.2vw 0 #fa26d3,
-    -0.2vw 0.1vw 0 #fa26d3,
-    -0.1vw 0.09vw 0 #fa26d3;
+  -0.35vw 0.2vw 1px #fa26d3,
+    -0.3vw 0.18vw 1px #fa26d3,
+    -0.25vw 0.15vw 1px #fa26d3,
+    -0.2vw 0.1vw 1px #fa26d3,
+    -0.1vw 0.08vw 1px #fa26d3,
+    -0.05vw 0.04vw 1px #fa26d3;
 }
 
 .main-page-bar-icon-pablo{
   position: fixed;
   color:white;
-  top:0;
-  left:15vw;
+  top:7vh;
+  left:3.5vw;
+}
 
+.main-page-bar-icon-webDeveloper{
+  position: fixed;
+  color:white;
+  font-size: 0.7vw;
+  top: 12vh;
+  left: 1vw;
 }
 
 .main-page-bar-links{
@@ -185,7 +194,7 @@ background-color: rgb(157, 152, 152);
 
 .main-page-bar-github{
   position: fixed;
-  left: 0.5vw;
+  left: 0vw;
   top:60vh;
 }
 .main-page-bar-linkedin{
