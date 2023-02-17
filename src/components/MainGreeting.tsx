@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom';
-import P from '../img/P mayuscula.png';
+
 
 function MainGreeting() {
 
@@ -18,8 +18,8 @@ function MainGreeting() {
   return (
 
     <div className='main-greeting'>
-      <h1>Hi,<br/>I´m  &nbsp;&nbsp;&nbsp;ablo,<br/> fullstack developer</h1>
-      <img src={P} alt='P mayuscula'/>
+      <h1 className='main-greeting-text'>Hi,<br/>I´m  &nbsp;&nbsp;&nbsp;ablo,<br/> fullstack developer</h1>      
+      <h1 className='main-greeting-P'>P</h1>
     </div>
   )
 }
